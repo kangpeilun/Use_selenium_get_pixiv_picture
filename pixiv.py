@@ -4,10 +4,6 @@
 # datatime: 2021-07-29 16:48
 # project: 爬虫学习
 
-'''
-Task: 使用selenium爬取pixiv，浏览器右键后按键盘的y 进行图片的复制，其他方式都会被pixiv服务器阻止
-'''
-
 from selenium.webdriver import Chrome
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
